@@ -1,11 +1,10 @@
 import React, { Component, Fragment } from 'react';
 import { observer } from "mobx-react";
 import { Table } from 'antd';
-import debounce from 'lodash/debounce';
 import Select from "react-select";
 import tableOperations from '../table-hoc';
-import { CancelAllButton } from "../../cancel-all-button";
-import { CancelButton } from "../../cancel-button";
+import { CancelAllButton } from "../../buttons/cancel-all-button";
+import { CancelButton } from "../../buttons/cancel-button";
 import ColumnFilter from '../../column-filter';
 // import TablePagination from '../../pagination';
 

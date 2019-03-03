@@ -15,6 +15,7 @@ import TransactionsContainer from "./components/terminal/transactions";
 import { TransactionsStore } from './stores/transactions-store';
 
 import { UserNotificationsDropdown } from './components/user-notifications/user-notifications-dropdown';
+import { AuthPage } from './components/auth-page';
 
 export {
   ActiveOrdersComponent,
@@ -29,5 +30,6 @@ export {
   TransactionsComponent,
   TransactionsContainer,
   TransactionsStore,
-  UserNotificationsDropdown
+  UserNotificationsDropdown,
+  AuthPage
 }

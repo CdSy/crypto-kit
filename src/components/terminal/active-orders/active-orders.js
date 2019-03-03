@@ -5,8 +5,8 @@ import { Table, Button } from 'antd';
 import Select from 'react-select';
 import { format, compareAsc } from 'date-fns';
 import { NotificationManager } from 'react-notifications';
-import { CancelAllButton } from '../../cancel-all-button';
-import { CancelButton } from '../../cancel-button';
+import { CancelAllButton } from '../../buttons/cancel-all-button';
+import { CancelButton } from '../../buttons/cancel-button';
 import humanizeString from 'humanize-string';
 import TablePagination from '../../pagination'
 import ColumnFilter from '../../column-filter'
