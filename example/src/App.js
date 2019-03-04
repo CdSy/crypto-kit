@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, withRouter, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import './lang/i18n';
 
 import { AuthPage } from 'cripto-dev-kit';
 import { isAuth } from "./services/access";
@@ -13,7 +14,6 @@ export default class App extends Component {
           <Switch>
             <Route
               path="/"
-              exact
               component={() => <MainPage />}
               key="main-route"
             />

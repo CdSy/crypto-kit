@@ -1,5 +1,16 @@
+@import './build.css';
+@import './vendors.css';
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+.sidebar {
+  height: 100vh;
+}
+
+.sidebar .ant-menu {
+  height: 100%;
 }
